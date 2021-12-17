@@ -1,0 +1,27 @@
+.brucia__features-whyUs{
+    padding: 1rem;
+}
+
+.brucia__features-whyUs__heading h1{
+    font-family: var(--font-family-heading);
+    font-weight: 900;
+}
+
+.brucia__features-whyUs__description{
+    font-family: var(--font-family-paragraph);
+    margin-top: 1rem;
+}
+
+@media screen and(max-width: 800px) {
+    .brucia__features-whyUs{
+        margin: 1rem;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and(max-width: 500px) {
+    .brucia__features-whyUs{
+        display: flex;
+        flex-direction: column;
+    }
+}

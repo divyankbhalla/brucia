@@ -1,0 +1,17 @@
+.brucia__features-crousel{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 90px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 200px;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+.brucia__features-crousel_heading{
+    font-family: var(--font-family-paragraph);
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,45 @@
+.brucia__features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.brucia__features-crousel-middle{
+    display: flex;
+    position: relative;
+    top: 220px;
+    margin-bottom: 1rem;
+}
+
+.brucia__features-crousel__coulumn{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.brucia__features-crousel__coulumn-heading h1{
+    font-family: var(--font-family-heading);
+    margin-bottom: 1rem;
+}
+
+.brucia__features-crousel__coulumn-description p{
+    font-family: var(--font-family-paragraph);
+    margin-bottom: 1rem;
+    font-size: 13px;
+}
+
+.brucia__features-crousel__image img{
+    width: 400px;
+    height: 400px;
+}
+
+.brucia__features-crousel__coulumn-button{
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    background: var(--red);
+    color: #fff;
+    border: none;
+}

@@ -1,0 +1,12 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+:root{
+  --font-family-heading: 'Helvetica Neue', sans-serif;
+  --font-family-paragraph: 'SF Pro Display', sans-serif;
+  --red: #FF1C1A;
+}
+
+.red-text{
+  color: var(--red);
+}

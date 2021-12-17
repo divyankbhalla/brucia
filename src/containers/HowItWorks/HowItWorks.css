@@ -1,0 +1,44 @@
+.brucia__howItWorks{
+    display: flex;
+    flex-direction: column;
+}
+
+.brucia__howItWorks-heading{
+    font-size: 20px;
+    font-family: var(--font-family-heading);
+    display: flex;
+    justify-content: center;
+}
+
+.brucia__howItWorks-image{
+    display: flex;
+    justify-content: center;
+}
+
+.brucia__howItWorks-image img{
+    height: 400px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .brucia__howItWorks-heading{
+        font-size: 18px;
+    }
+
+    .brucia__howItWorks-image img{
+        width: 700px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .brucia__howItWorks-heading{
+        font-size: 15px;
+    }
+
+    .brucia__howItWorks-image img{
+        width: 500px;
+        height: 200px;
+    }
+}

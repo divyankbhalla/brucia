@@ -1,0 +1,228 @@
+.brucia__header{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    flex-direction: column;
+}
+
+/* .brucia__header-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 50px;
+} */
+
+.brucia__header-info__heading{
+    position: absolute;
+    left: 9rem;
+    top: 8rem;
+    text-align: left;
+}
+
+.brucia__header-info__heading h1{
+    font-family: var(--font-family-heading);
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.brucia__header-info__heading button{
+    width: 270px;
+    height: 57px;
+    border-radius: 2px;
+    background: var(--red);
+    color: #fff;
+    border: none;
+}
+
+.brucia__header-info__heading button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.brucia__header-info__para{
+    width: 437px;
+    height: 148px;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    margin-left: 500px;
+}
+
+.brucia__header-info__para p{
+    font-family: var(--font-family-paragraph);
+    font-size: 24px;
+    text-align: left;
+    margin-top: 65px;
+}
+
+.brucia__header-illust{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.brucia__header-illust__meetHoum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brucia__header-illust__meetHoum-heading{
+    display: flex;
+    color: var(--red);
+    padding-left: 2rem;
+    font-family: var(--font-family-paragraph);
+    cursor: pointer;
+}
+
+.bucia__header-illust__image img{
+    width: 400px;
+    height: 450px;
+    margin-top: 70px;
+}
+
+.brucia__header-illust__meetHoum-para{
+    width: 120px;
+    text-align: right;
+    font-family: var(--font-family-paragraph);
+}
+
+.brucia__header-illust-scroll{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 20rem;
+    right: 5rem;
+}
+
+.brucia__header-illust-scroll p{
+    transform: rotate(-90deg);
+    font-size: 12px;
+    letter-spacing: 2.9px;
+    font-family: var(--font-family-paragraph);
+}
+
+.brucia__header-illust-scroll a{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    right: 2.2rem;
+}
+
+
+
+@media screen and (max-width: 1550px) {
+    .brucia__header-info__heading h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .brucia__header-info__heading h1{
+        font-size: 45px;
+    }
+
+    .brucia__header-info__heading button{
+        width: 200px;
+        height: 50px;
+    }
+
+    .brucia__header-info__para{
+        width: 400px;
+        height: 140px;
+    }
+
+    .brucia__header-info__para p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .brucia__header-info__heading h1{
+        font-size: 30px;
+    }
+
+    .brucia__header-info__heading button{
+        width: 140px;
+        height: 30px;
+    }
+
+    .brucia__header-info__para{
+        width: 200px;
+        height: 120px;
+        top: 60px;
+    }
+
+    .brucia__header-info__para p{
+        font-size: 16px;
+    }
+
+    .brucia__header-info__heading{
+        left: 7rem;
+        top: 120px;
+    }
+
+    .brucia__header-illust-scroll{
+        display: none;
+    }
+
+    .brucia__header-illust__meetHoum{
+        display: none;
+    }
+
+    .bucia__header-illust__image img{
+        width: 320px;
+        height: 390px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .brucia__header-info__heading h1{
+        font-size: 20px;
+    }
+
+    .brucia__header-info__heading button{
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .brucia__header-info__para{
+        width: 100px;
+        top: 60px;
+        right: 3rem;
+    }
+
+    .brucia__header-info__para p{
+        font-size: 10px;
+    }
+
+    .brucia__header-info__heading{
+        left: 3rem;
+        top: 120px;
+    }
+
+    .bucia__header-illust__image img{
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media screen and(max-width: 400px) {
+    .brucia__header-info__heading{
+        left: 1rem;
+    }
+
+    .brucia__header-info__heading h1{
+        font-size: 15px;
+    }
+
+    .brucia__header-info__para{
+        right: 1rem;
+    }
+}
